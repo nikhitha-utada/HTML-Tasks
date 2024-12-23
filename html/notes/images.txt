@@ -1,0 +1,35 @@
+--> void element
+--> image and file names should be descriptive as they help in SEO.
+--> it is recommended not to use absolute URLs which means we must host them on the same server.
+--> HOTLINKING: 
+        It is linking of some one else's websites images in our website without their consent.. It is unethical...And it is inefficient because we wont have control over the images...
+--> uses of alt attribute:
+    --> Screen readers
+    --> SEO
+
+--> as we do with links we can add title attribute to the images as well...
+
+--> types of licences:
+    --> all rights reserved :
+          -->they have explicit rights on the content they own.
+          -->if we want to use that resource we have to pay some fees or we have to take a written acceptance letter from the concerning authority..
+    --> permissive:
+            --> it gives permission to use but there are few criteria to follow..
+            --> add a credit to the content creator.
+    --> no rights reserved:
+            --> it specifies that its a public resource and no one owns it and it can be published online as possible..
+            --> but its good to keep in record that its a public resource for future references..
+            --> Effective ways to place work in the public domain is to license it under CCO, a specific CREATIVE COMMONS LICENCES that provides a clear and unambiguous legal tool for this purpose.
+    --> its better to place the image in a <figure> and the description of the image in the <figcaption> for more easier readability for the screen readers..
+
+        syntax:
+            <figure>
+                <img>
+                <figcaption> caption </figcaption>
+            </figure>  
+
+    --> alt Vs figcaption:
+            both provide the text for the image but the main difference is that the alt text will be useful for the screen readers and the figcaption text will be useful for the people who can see as well and screen readers..
+
+-->
+
